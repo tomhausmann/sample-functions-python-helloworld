@@ -1,7 +1,7 @@
 import os
 
 def main(args):
-      TEST=os.getenv('TEST')
+      TEST=os.system('$TEST')
       name = args.get("name", "stranger")
       greeting = "Hello " + name + "!!!!" + TEST
       print(greeting)
