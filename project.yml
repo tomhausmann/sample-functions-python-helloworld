@@ -3,5 +3,5 @@ packages:
     actions:
       - name: hello
         environment:
-          TEST: testsetse
+          TEST: {$TEST}
         runtime: 'python:default'
