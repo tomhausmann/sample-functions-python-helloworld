@@ -6,4 +6,3 @@ def main(args):
       greeting = "Hello " + name + "!!!!" + TEST
       print(greeting)
       return {"body": greeting}
-  
