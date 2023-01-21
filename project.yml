@@ -1,8 +1,7 @@
-environment:
-  TEST:testeststs
-
 packages:
   - name: sample
     actions:
       - name: hello
+        environment:
+          TEST: testsetse
         runtime: 'python:default'
