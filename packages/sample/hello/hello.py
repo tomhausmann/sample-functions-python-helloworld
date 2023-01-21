@@ -1,6 +1,6 @@
 import os
 
-TEST=os.system('$TEST')
+TEST=os.getenv("TEST")
 
 def main(args):
       name = args.get("name", "stranger")
