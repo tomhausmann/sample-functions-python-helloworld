@@ -1,7 +1,7 @@
 import os
 
 def main(args):
-      URL=os.getenv('TEST')
+      TEST=os.getenv('TEST')
       name = args.get("name", "stranger")
       greeting = "Hello " + name + "!!!!" + TEST
       print(greeting)
