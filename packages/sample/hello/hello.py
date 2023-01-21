@@ -1,9 +1,9 @@
 import os
 
 def main(args):
-      URL=os.getenv('URL')
+      URL=os.getenv('TEST')
       name = args.get("name", "stranger")
-      greeting = "Hello " + name + "!!!!" + URL
+      greeting = "Hello " + name + "!!!!" + TEST
       print(greeting)
       return {"body": greeting}
   
